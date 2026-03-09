@@ -189,7 +189,6 @@
     "Sprout": {
       "type": "object",
       "required": [
-        "homepage_url",
         "name"
       ],
       "properties": {
@@ -200,7 +199,10 @@
           ]
         },
         "homepage_url": {
-          "type": "string"
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "logo": {
           "type": [
